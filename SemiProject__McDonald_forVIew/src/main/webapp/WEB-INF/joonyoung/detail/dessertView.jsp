@@ -197,7 +197,7 @@ $(document).ready(function() {
 
 
 .topimage{
-background:url(/SemiProject__McDonald/images/디저트상단이미지.png) 50% 50% no-repeat;
+background:url(/SemiProject__McDonald_forVIew/images/디저트상단이미지.png) 50% 50% no-repeat;
 }
 
 

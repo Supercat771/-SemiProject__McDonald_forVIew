@@ -69,10 +69,10 @@ background:url(<%= request.getContextPath() %>/images/사이드상단이미지.j
 					$.each(json, function(index, item){						
 						    html += "<div class='col-sm-6 col-lg-4 mb-3' style='width: 18rem'>"
 								 	+ "<div id='bgcard' class='card card-1'>"
-								 		+ "<img src='/SemiProject__McDonald/images/"+item.item_image+"' class='card-img-top' style='width: 100%' />"
+								 		+ "<img src='/SemiProject__McDonald_forVIew/images/"+item.item_image+"' class='card-img-top' style='width: 100%' />"
 								 		+ "<div class='card-bodys'>"
 								 			+ "<h5 class='card-title'>"+item.item_name+"</h5>"
-								 			+ "<a href='/SemiProject__McDonald/detail/sideView.run?item_no="+item.item_no+"' class='stretched-link'></a>"
+								 			+ "<a href='/SemiProject__McDonald_forVIew/detail/sideView.run?item_no="+item.item_no+"' class='stretched-link'></a>"
 								 		+ "</div>"
 								 	+ "</div>"
 								 + "</div>";								 
